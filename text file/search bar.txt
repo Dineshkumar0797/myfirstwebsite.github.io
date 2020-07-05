@@ -1,0 +1,32 @@
+ html:
+<div class="search">
+                <img  class="icon" src="icon.png">
+                <input type="text" name="search" placeholder="Search..">
+            </div>
+
+css:
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 20px 20px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px 15px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  width: 18%;
+}
+.search{
+  display: inline;
+ margin-left: 1080px;
+  top: 10px;
+}
+.icon {
+  width: 20px;
+  height:20px;
+}

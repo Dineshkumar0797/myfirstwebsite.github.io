@@ -1,0 +1,44 @@
+ <div class="link">
+               <b><p>Sign-up for exclusive offer!</p></b>
+                <label for="mail"><b>G-Mail:</b></label>
+                <input type="mail"  id="mail" placeholder="Enter your mail" name="mail" required>
+                <button class="btn" type="submit">submit</button>
+            </div>
+
+
+  <div class="footer2">
+                <b><p>Location:</p></b>
+            <b><u>"6580 Saint Hubert St.<br>
+                Montreal, (Quebec)<br>
+                H2S 2M3</u><br>
+                Canada"</b>
+            </div>
+
+ <div class="copyright">
+            <b><p class="Cright">Copy-Right @ 2020 <br>
+                Design and Develop by Dinesh
+            </p></b>
+         </div>
+
+
+
+
+.footer2{
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+  color: #dddddd;
+}
+.link{
+  display: inline-block;
+  margin-left: 990px;
+  top:300px;
+  right: 100px;
+}
+.Cright{
+  text-align: center;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  color: #dddddd;
+}
